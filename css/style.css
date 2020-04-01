@@ -4,7 +4,7 @@ body {
   -webkit-text-size-adjust: 100% !important;
   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
-                /* Starting from the header part */
+/* Starting from the header part */
 .heading-title,
 .button-resize,
 .txt-resize {
@@ -39,10 +39,9 @@ div ul .nav-item {
 
 div ul .nav-item a {
   text-decoration: none;
-  color: #000 !important;
   text-transform: uppercase;
-  font-size-adjust: 100%;
   font-size: 1rem;
+  line-height: normal;
 }
 
 div ul .nav-item a:hover {
@@ -84,7 +83,7 @@ div .heading-title p {
   color: rgba(255, 255, 255, 0.5);
   padding-bottom: 100px;
 }
-                            /* end of header part */
+/* end of header part */
 
 #about h2 {
   border-bottom: 3px solid tomato;
@@ -116,12 +115,12 @@ div .heading-title p {
   margin-bottom: 25px;
 }
 
-                        /* end of about part */
+/* end of about part */
 #services {
   box-sizing: border-box;
   background-color: #fafafa;
 }
- #services h2 {
+#services h2 {
   border-bottom: 3px solid tomato;
   text-align: center;
   font-size: 2.5rem;
@@ -129,24 +128,24 @@ div .heading-title p {
   padding-top: 100px;
   padding-bottom: 5px;
   width: 150px;
- }
+}
 
+.service-modify .col-sm-4 .fas,
+.service-modify .col-sm-4 .fab {
+  display: block;
+  font-size: 3rem;
+  margin: 30px 0;
+}
 
- .service-modify .col-sm-4 .fas,.service-modify .col-sm-4 .fab {
-   display: block;
-   font-size: 3rem;
-   margin: 30px 0;
- }
+#services .service-modify {
+  text-align: center;
+  color: rgb(190, 62, 39);
+  padding-bottom: 100px;
+}
 
- #services .service-modify {
-   text-align: center;
-   color: rgb(190, 62, 39);
-   padding-bottom: 100px;
- }
+/* end of services part */
 
-                        /* end of services part */
-
- #gallery h2 {
+#gallery h2 {
   border-bottom: 3px solid tomato;
   text-align: center;
   font-size: 2.5rem;
@@ -154,22 +153,21 @@ div .heading-title p {
   padding-top: 100px;
   padding-bottom: 5px;
   width: 150px;
- }
+}
 
- div .row .part-2 {
-   margin-top: 20px;
- }
+div .row .part-2 {
+  margin-top: 20px;
+}
 
- div .row .part-2:last-child {
-   padding-bottom: 50px;
- }
-                             /* end of gallery part */
+div .row .part-2:last-child {
+  padding-bottom: 50px;
+}
+/* end of gallery part */
 
 #feedback {
   height: 700px;
   background-color: #fafafa;
 }
-
 
 #feedback h2 {
   border-bottom: 3px solid tomato;
@@ -179,8 +177,8 @@ div .heading-title p {
   padding-top: 50px;
   padding-bottom: 5px;
   width: 200px;
- }
- .card {
+}
+.card {
   height: 300px;
   width: 350px;
   background-image: linear-gradient(
@@ -190,7 +188,7 @@ div .heading-title p {
   );
   color: #fff;
 }
- .carousel-control-prev {
+.carousel-control-prev {
   background-color: rgb(0, 0, 255);
   border-radius: 15px;
   height: 30px;
@@ -226,7 +224,7 @@ div .card-text small {
   content: '\f005\f005\f005\f005\f005';
 }
 
-                             /* end of feedback part */
+/* end of feedback part */
 #contact {
   background-color: rgb(236, 230, 228);
   max-width: 600px;
@@ -240,13 +238,19 @@ div .card-text small {
   margin: 50px auto;
   padding-top: 20px;
   width: 150px;
- }
+}
 
-.form-group input[type="text"], .form-group input[type="email"] {
+.form-group input[type='text'],
+.form-group input[type='email'] {
   height: 50px;
 }
-.form-group input[type="text"]:focus, .form-group input[type="email"]:focus {
-border-bottom: 4px solid #473ceb;
+.form-group input[type='text']:focus,
+.form-group input[type='email']:focus {
+  border-bottom: 4px solid #473ceb;
+}
+
+textarea {
+  resize: none;
 }
 
 .form-group div .btn-submit {
@@ -263,7 +267,7 @@ border-bottom: 4px solid #473ceb;
   color: aliceblue;
 }
 
-                                /* end of contact form part */
+/* end of contact form part */
 #footer {
   background: #fafafa;
   padding-top: 50px;
@@ -284,4 +288,4 @@ border-bottom: 4px solid #473ceb;
   font-size: 1rem;
 }
 
-                                      /* end of footer part */
+/* end of footer part */
