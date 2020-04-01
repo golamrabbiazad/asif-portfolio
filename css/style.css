@@ -16,7 +16,7 @@ body .bg-added {
   position: relative;
   background-color: #036aca;
   background-image: linear-gradient(135deg, #036aca 0%, #0ca2e7 100%);
-  height: 800px;
+  height: 900px;
   width: 100%;
 }
 header .navbar {
@@ -46,34 +46,42 @@ div ul .nav-item a {
 }
 
 div ul .nav-item a:hover {
-  border-bottom: 3px solid gold;
+  border-bottom: 3px solid rgb(255, 89, 70);
 }
-div .under-close {
-  background-color: #ac2b85;
-  text-decoration: none;
-  text-transform: uppercase;
-  font-family: 'Montserrat', sans-serif;
+
+.under-close {
+  background-color: rgba(255, 89, 70, 0.85);
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
   font-size: 1.2rem;
-  margin: 20px 10px;
+  font-weight: bold;
   padding-top: 10px;
+  margin: 0 10px;
   height: 50px;
   width: 130px;
+  text-decoration: none;
+  text-transform: uppercase;
+  position: relative;
+  top: 60px;
 }
-div .under-close:hover {
-  background-color: #960167;
+
+.under-close:hover {
+  background-color: rgba(255, 89, 70, 0.9);
   color: #fff;
 }
 
 div .heading-title h1 {
-  text-transform: uppercase;
   color: #fff;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 4rem;
   font-weight: bolder;
+  line-height: 1.2;
+  text-transform: uppercase;
 }
 
 div .heading-title p {
   font-size: 1.5rem;
-  color: #fff;
+  color: rgba(255, 255, 255, 0.5);
   padding-bottom: 100px;
 }
                             /* end of header part */
@@ -224,7 +232,7 @@ div .card-text small {
   max-width: 600px;
   height: 600px;
   margin-top: 150px;
-} 
+}
 #contact h2 {
   border-bottom: 3px solid tomato;
   text-align: center;
@@ -242,7 +250,7 @@ border-bottom: 4px solid #473ceb;
 }
 
 .form-group div .btn-submit {
-  background-color: #5cc9af;
+  background-color: rgba(255, 89, 70, 0.9);
   color: rgb(255, 255, 255);
   text-transform: uppercase;
   text-decoration: none;
@@ -251,7 +259,7 @@ border-bottom: 4px solid #473ceb;
   margin: 30px auto;
 }
 .form-group div .btn-submit:hover {
-  background-color: #38927d;
+  background-color: rgba(255, 89, 70, 0.85);
   color: aliceblue;
 }
 
